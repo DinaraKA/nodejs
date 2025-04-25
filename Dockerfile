@@ -9,7 +9,7 @@ RUN rm -rf /usr/local/lib/node_modules/npm \
 WORKDIR /app
 
 # Copy the application
-COPY app.js .
+COPY app.js index.html .
 
 # Expose app port
 EXPOSE 8080
